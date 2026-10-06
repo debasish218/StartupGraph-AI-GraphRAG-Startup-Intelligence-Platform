@@ -1,0 +1,3 @@
+# Local embeddings (EMBEDDING_PROVIDER=local). Install CPU torch first to keep images small:
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch
+sentence-transformers>=3.0,<6

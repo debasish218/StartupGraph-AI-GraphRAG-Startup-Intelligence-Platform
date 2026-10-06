@@ -1,0 +1,67 @@
+[
+  {"company": "openai", "round_type": "Corporate", "amount": 1000000000, "date": "2019-07-22", "lead_investors": ["microsoft"], "investors": []},
+  {"company": "openai", "round_type": "Corporate", "amount": 10000000000, "date": "2023-01-23", "lead_investors": ["microsoft"], "investors": []},
+  {"company": "openai", "round_type": "Growth", "amount": 6600000000, "date": "2024-10-02", "lead_investors": ["thrive-capital"], "investors": ["microsoft", "nvidia", "softbank", "khosla-ventures", "fidelity"]},
+  {"company": "openai", "round_type": "Growth", "amount": 40000000000, "date": "2025-03-31", "lead_investors": ["softbank"], "investors": ["microsoft", "thrive-capital", "coatue"]},
+
+  {"company": "anthropic", "round_type": "Corporate", "amount": 300000000, "date": "2023-02-03", "lead_investors": ["google"], "investors": []},
+  {"company": "anthropic", "round_type": "Series C", "amount": 450000000, "date": "2023-05-23", "lead_investors": ["spark-capital"], "investors": ["google", "salesforce-ventures", "menlo-ventures"]},
+  {"company": "anthropic", "round_type": "Corporate", "amount": 4000000000, "date": "2023-09-25", "lead_investors": ["amazon"], "investors": []},
+  {"company": "anthropic", "round_type": "Corporate", "amount": 4000000000, "date": "2024-11-22", "lead_investors": ["amazon"], "investors": []},
+  {"company": "anthropic", "round_type": "Series E", "amount": 3500000000, "date": "2025-03-03", "lead_investors": ["lightspeed"], "investors": ["salesforce-ventures", "menlo-ventures", "general-catalyst"]},
+  {"company": "anthropic", "round_type": "Series F", "amount": 13000000000, "date": "2025-09-02", "lead_investors": ["iconiq"], "investors": ["fidelity", "lightspeed", "insight-partners", "general-catalyst"]},
+
+  {"company": "mistral-ai", "round_type": "Seed", "amount": 113000000, "date": "2023-06-13", "lead_investors": ["lightspeed"], "investors": []},
+  {"company": "mistral-ai", "round_type": "Series A", "amount": 415000000, "date": "2023-12-10", "lead_investors": ["a16z"], "investors": ["lightspeed", "nvidia", "salesforce-ventures", "general-catalyst"]},
+  {"company": "mistral-ai", "round_type": "Series B", "amount": 640000000, "date": "2024-06-11", "lead_investors": ["general-catalyst"], "investors": ["lightspeed", "a16z", "nvidia", "salesforce-ventures"]},
+  {"company": "mistral-ai", "round_type": "Series C", "amount": 2000000000, "date": "2025-09-09", "lead_investors": ["asml"], "investors": ["a16z", "lightspeed", "general-catalyst", "nvidia", "index-ventures"]},
+
+  {"company": "cohere", "round_type": "Series A", "amount": 40000000, "date": "2021-09-07", "lead_investors": ["index-ventures"], "investors": []},
+  {"company": "cohere", "round_type": "Series B", "amount": 125000000, "date": "2022-02-16", "lead_investors": ["tiger-global"], "investors": ["index-ventures"]},
+  {"company": "cohere", "round_type": "Series C", "amount": 270000000, "date": "2023-06-08", "lead_investors": [], "investors": ["nvidia", "salesforce-ventures", "index-ventures"]},
+  {"company": "cohere", "round_type": "Series D", "amount": 500000000, "date": "2024-07-22", "lead_investors": [], "investors": ["nvidia", "salesforce-ventures", "fidelity"]},
+
+  {"company": "xai", "round_type": "Series B", "amount": 6000000000, "date": "2024-05-26", "lead_investors": [], "investors": ["a16z", "sequoia", "fidelity", "valor-equity"]},
+  {"company": "xai", "round_type": "Series C", "amount": 6000000000, "date": "2024-12-23", "lead_investors": [], "investors": ["a16z", "sequoia", "fidelity", "nvidia", "valor-equity"]},
+
+  {"company": "perplexity", "round_type": "Series B", "amount": 73600000, "date": "2024-01-04", "lead_investors": ["ivp"], "investors": ["nvidia", "nea"]},
+  {"company": "perplexity", "round_type": "Series D", "amount": 500000000, "date": "2024-12-18", "lead_investors": ["ivp"], "investors": ["nea", "nvidia"]},
+  {"company": "perplexity", "round_type": "Series E", "amount": 500000000, "date": "2025-05-28", "lead_investors": ["accel"], "investors": []},
+
+  {"company": "character-ai", "round_type": "Series A", "amount": 150000000, "date": "2023-03-23", "lead_investors": ["a16z"], "investors": []},
+  {"company": "inflection-ai", "round_type": "Growth", "amount": 1300000000, "date": "2023-06-29", "lead_investors": ["microsoft"], "investors": ["nvidia"]},
+  {"company": "adept", "round_type": "Series A", "amount": 65000000, "date": "2022-04-26", "lead_investors": ["greylock", "addition"], "investors": []},
+  {"company": "adept", "round_type": "Series B", "amount": 350000000, "date": "2023-03-14", "lead_investors": ["general-catalyst", "spark-capital"], "investors": ["microsoft", "nvidia"]},
+  {"company": "ssi", "round_type": "Series A", "amount": 1000000000, "date": "2024-09-04", "lead_investors": [], "investors": ["a16z", "sequoia", "dst-global"]},
+  {"company": "ssi", "round_type": "Growth", "amount": 2000000000, "date": "2025-04-11", "lead_investors": ["greenoaks"], "investors": ["google", "nvidia"]},
+  {"company": "thinking-machines-lab", "round_type": "Seed", "amount": 2000000000, "date": "2025-07-15", "lead_investors": ["a16z"], "investors": ["nvidia", "accel"]},
+
+  {"company": "hugging-face", "round_type": "Series B", "amount": 40000000, "date": "2021-03-11", "lead_investors": ["addition"], "investors": []},
+  {"company": "hugging-face", "round_type": "Series C", "amount": 100000000, "date": "2022-05-09", "lead_investors": ["lux-capital"], "investors": ["sequoia", "coatue"]},
+  {"company": "hugging-face", "round_type": "Series D", "amount": 235000000, "date": "2023-08-24", "lead_investors": ["salesforce-ventures"], "investors": ["google", "amazon", "nvidia", "sequoia", "lux-capital"]},
+
+  {"company": "scale-ai", "round_type": "Series C", "amount": 100000000, "date": "2019-08-05", "lead_investors": ["founders-fund"], "investors": ["index-ventures"]},
+  {"company": "scale-ai", "round_type": "Series E", "amount": 325000000, "date": "2021-04-13", "lead_investors": ["greenoaks", "tiger-global"], "investors": ["founders-fund"]},
+  {"company": "scale-ai", "round_type": "Series F", "amount": 1000000000, "date": "2024-05-21", "lead_investors": ["accel"], "investors": ["amazon", "meta", "nvidia", "index-ventures", "founders-fund"]},
+  {"company": "scale-ai", "round_type": "Corporate", "amount": 14300000000, "date": "2025-06-12", "lead_investors": ["meta"], "investors": []},
+
+  {"company": "databricks", "round_type": "Series I", "amount": 500000000, "date": "2023-09-14", "lead_investors": [], "investors": ["nvidia", "a16z"]},
+  {"company": "databricks", "round_type": "Series J", "amount": 10000000000, "date": "2024-12-17", "lead_investors": ["thrive-capital"], "investors": ["a16z", "dst-global", "insight-partners"]},
+
+  {"company": "stability-ai", "round_type": "Seed", "amount": 101000000, "date": "2022-10-17", "lead_investors": ["coatue", "lightspeed"], "investors": []},
+  {"company": "runway", "round_type": "Series C", "amount": 50000000, "date": "2022-12-05", "lead_investors": ["felicis"], "investors": []},
+  {"company": "runway", "round_type": "Series C", "amount": 141000000, "date": "2023-06-29", "lead_investors": [], "investors": ["google", "nvidia", "salesforce-ventures"]},
+  {"company": "runway", "round_type": "Series D", "amount": 308000000, "date": "2025-04-03", "lead_investors": ["general-atlantic"], "investors": ["fidelity", "nvidia", "softbank"]},
+  {"company": "figure-ai", "round_type": "Series B", "amount": 675000000, "date": "2024-02-29", "lead_investors": [], "investors": ["microsoft", "nvidia", "amazon"]},
+
+  {"company": "roboflow", "round_type": "Series A", "amount": 20000000, "date": "2022-09-21", "lead_investors": ["craft-ventures"], "investors": ["y-combinator"]},
+  {"company": "roboflow", "round_type": "Series B", "amount": 40000000, "date": "2024-11-19", "lead_investors": ["gv"], "investors": ["craft-ventures", "y-combinator"]},
+  {"company": "twelve-labs", "round_type": "Series A", "amount": 50000000, "date": "2024-06-04", "lead_investors": ["nea", "nvidia"], "investors": []},
+  {"company": "encord", "round_type": "Series A", "amount": 12500000, "date": "2022-10-25", "lead_investors": ["crv"], "investors": ["y-combinator"]},
+  {"company": "encord", "round_type": "Series B", "amount": 30000000, "date": "2024-08-06", "lead_investors": ["next47"], "investors": ["crv", "y-combinator"]},
+  {"company": "encord", "round_type": "Series C", "amount": 60000000, "date": "2025-02-04", "lead_investors": ["wellington"], "investors": ["crv", "next47"]},
+  {"company": "voxel51", "round_type": "Series B", "amount": 30000000, "date": "2024-04-24", "lead_investors": ["bessemer"], "investors": []},
+  {"company": "v7-labs", "round_type": "Series A", "amount": 33000000, "date": "2022-11-15", "lead_investors": ["radical-ventures"], "investors": []},
+  {"company": "landing-ai", "round_type": "Series A", "amount": 57000000, "date": "2021-11-08", "lead_investors": [], "investors": ["insight-partners"]},
+  {"company": "clarifai", "round_type": "Series C", "amount": 60000000, "date": "2018-10-23", "lead_investors": ["nea"], "investors": []}
+]

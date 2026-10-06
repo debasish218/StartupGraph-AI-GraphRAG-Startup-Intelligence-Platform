@@ -1,0 +1,16 @@
+fastapi>=0.142,<1
+uvicorn[standard]>=0.54,<1
+pydantic>=2.13,<3
+pydantic-settings>=2.15,<3
+neo4j>=6.4,<7
+psycopg[binary]>=3.3,<4
+psycopg-pool>=3.3,<4
+pgvector>=0.5,<0.6
+numpy>=2.0,<3
+langgraph>=1.2,<2
+langchain-core>=1.6,<2
+langchain-openai>=1.6,<2
+langchain-google-genai>=4.4,<5
+langchain-anthropic>=1.7,<2
+feedparser>=6.0,<7
+httpx>=0.28,<1

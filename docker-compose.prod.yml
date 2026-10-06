@@ -1,0 +1,29 @@
+# Production overrides: databases and API are private to the Docker network; only the
+# frontend (nginx, which proxies /api to the backend) is published.
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+services:
+  neo4j:
+    ports: !reset []
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?set NEO4J_PASSWORD in .env}
+
+  postgres:
+    ports: !reset []
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+
+  backend:
+    ports: !reset []
+    environment:
+      ENVIRONMENT: production
+      ADMIN_API_KEY: ${ADMIN_API_KEY:?set ADMIN_API_KEY in .env}
+      CORS_ORIGINS: ${CORS_ORIGINS:-}
+    logging:
+      driver: json-file
+      options: { max-size: "20m", max-file: "5" }
+
+  frontend:
+    ports: !override ["80:80"]
+    logging:
+      driver: json-file
+      options: { max-size: "20m", max-file: "5" }
